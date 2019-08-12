@@ -12,38 +12,76 @@
 
 <body>
     <div id="sideBar">
-        <img src="https://picsum.photos/128" alt="" style="border-radius: 100px;">
+        <img src="lib/img/8f6111f77db5fbc2bb79ea8e25fff621.png"
+            style="border-radius: 100px; height: 128px; width: 128px; object-fit: cover">
         <p>Mufasum</p>
-        <a href="#">Artist Bio</a>
+        <a href="#top">Artist Bio</a>
         <a href="#">2019</a>
+        <a href="#">2019 NSFW</a>
         <a href="#">2018</a>
     </div>
 
     <div id="main">
-        <div id="bio">
-            
+        <div id="bioContainer">
+            <div id="descriptionContainer">
+                <div id="description">
+                    <h1>Artist Bio</h1>
+                    <img id="deskSetup" src="/lib/img/51528427_850084785324023_8642474375471687900_n.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tortor odio, viverra fringilla
+                        nunc auctor, lacinia porta leo. Nulla rhoncus purus fringilla, bibendum tellus eu, pulvinar
+                        orci. Curabitur at porta elit. Sed cursus ipsum id lorem mattis, ut mollis ipsum commodo.
+                        Integer in laoreet massa. Phasellus erat ligula, condimentum tincidunt euismod laoreet, lobortis
+                        at erat. Suspendisse pharetra eget neque vel viverra.
+
+                        Praesent id commodo quam. Sed ex tortor, consectetur quis metus eu, pharetra auctor urna. Ut in
+                        pellentesque erat. Curabitur auctor nisl diam, quis pretium leo bibendum quis. Integer dapibus
+                        elit in nunc euismod, vel auctor lectus malesuada. Suspendisse at ex arcu. Ut vel magna
+                        faucibus, venenatis mi ac, ultrices leo. Fusce eu tempor justo, nec pretium lacus. Quisque
+                        condimentum tristique libero vitae mollis. Pellentesque blandit consequat ultrices. Cras id leo
+                        consequat, mattis mauris ac, elementum magna. Praesent volutpat in eros pellentesque cursus.
+                        Mauris eros justo, vehicula eget arcu eu, dictum imperdiet ligula.
+                    </p>
+                    <img src="https://picsum.photos/590/500" alt="">
+                </div>
+            </div>
+            <div id="altPersonaContainer">
+                <div id="altPersona">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tortor odio, viverra fringilla
+                        nunc auctor, lacinia porta leo. Nulla rhoncus purus fringilla, bibendum tellus eu, pulvinar
+                        orci. Curabitur at porta elit. Sed cursus ipsum id lorem mattis, ut mollis ipsum commodo.
+                        Integer in laoreet massa. Phasellus erat ligula, condimentum tincidunt euismod laoreet, lobortis
+                        at erat. Suspendisse pharetra eget neque vel viverra.
+                    </p>
+                    <img src="https://picsum.photos/200" alt="">
+                    <img src="https://picsum.photos/200" alt="">
+                    <img src="https://picsum.photos/200" alt="">
+                    <img src="https://picsum.photos/200" alt="">
+                </div>
+            </div>
         </div>
         <div id="gallary">
             <h1>2019</h1>
             <div class="container">
                 <div class="mySlides">
                     <div class="numbertext">1 / 6</div>
-                    <img src="https://picsum.photos/1000/350?random=5" style="width:100%">
+                    <img src="https://picsum.photos/1000/350?random=1" style="width:100%">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">2 / 6</div>
-                    <img src="https://picsum.photos/1000/350?random=5" style="width:100%">
+                    <img src="https://picsum.photos/1000/350?random=2" style="width:100%">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">3 / 6</div>
-                    <img src="https://picsum.photos/1000/350?random=5" style="width:100%">
+                    <img src="https://picsum.photos/1000/350?random=3" style="width:100%">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">4 / 6</div>
-                    <img src="https://picsum.photos/1000/350?random=5" style="width:100%">
+                    <img src="https://picsum.photos/1000/350?random=4" style="width:100%">
                 </div>
 
                 <div class="mySlides">
@@ -65,19 +103,19 @@
 
                 <div class="row">
                     <div class="column">
-                        <img class="demo cursor" src="https://picsum.photos/600/400?random=5" style="width:100%"
+                        <img class="demo cursor" src="https://picsum.photos/600/400?random=1" style="width:100%"
                             onclick="currentSlide(1)" alt="The Woods">
                     </div>
                     <div class="column">
-                        <img class="demo cursor" src="https://picsum.photos/600/400?random=5" style="width:100%"
+                        <img class="demo cursor" src="https://picsum.photos/600/400?random=2" style="width:100%"
                             onclick="currentSlide(2)" alt="Cinque Terre">
                     </div>
                     <div class="column">
-                        <img class="demo cursor" src="https://picsum.photos/600/400?random=5" style="width:100%"
+                        <img class="demo cursor" src="https://picsum.photos/600/400?random=3" style="width:100%"
                             onclick="currentSlide(3)" alt="Mountains and fjords">
                     </div>
                     <div class="column">
-                        <img class="demo cursor" src="https://picsum.photos/600/400?random=5" style="width:100%"
+                        <img class="demo cursor" src="https://picsum.photos/600/400?random=4" style="width:100%"
                             onclick="currentSlide(4)" alt="Northern Lights">
                     </div>
                     <div class="column">
@@ -85,11 +123,14 @@
                             onclick="currentSlide(5)" alt="Nature and sunrise">
                     </div>
                     <div class="column">
-                        <img class="demo cursor" src="https://picsum.photos/600/400?random=5" style="width:100%"
+                        <img class="demo cursor" src="https://picsum.photos/600/400?random=6" style="width:100%"
                             onclick="currentSlide(6)" alt="Snowy Mountains">
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="footer">
+
         </div>
     </div>
 </body>
